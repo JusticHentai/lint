@@ -1,0 +1,12 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "continuous integration prettier config",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "keywords": ["douza", "eslint"],
+  "author": "douza",
+  "license": "ISC"
+}
