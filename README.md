@@ -6,8 +6,18 @@ continuous integration Eslint-config
 
 In `.eslintrc.js`
 ```js
+module.exports = {
+  extends: ['@douza/eslint-config'],
+}
+```
+
+单独使用
+```js
 module.exports = {  
-  extends: ['@douza/eslint-config'],  
+  extends: [
+	'@douza/eslint-config/basic',
+	'@douza/eslint-config/typescript'  
+  ],
 }
 ```
 
