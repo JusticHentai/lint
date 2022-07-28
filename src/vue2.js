@@ -3,6 +3,7 @@ module.exports = {
     './basic',
     'plugin:vue/recommended',
     '@vue/eslint-config-typescript/recommended',
+    '@vue/eslint-config-prettier',
   ],
   rules: {
     'no-shadow': 'off', // 关闭 eslint 的，使用 @typescript-eslint 的
