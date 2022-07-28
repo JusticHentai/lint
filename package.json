@@ -25,6 +25,14 @@
     "./typescript": {
       "import": "./src/typescript.js",
       "require": "./src/typescript.js"
+    },
+    "./vue2": {
+      "import": "./src/vue2.js",
+      "require": "./src/vue2.js"
+    },
+    "./vue3": {
+      "import": "./src/vue3.js",
+      "require": "./src/vue3.js"
     }
   },
   "main": "./src/index.js",
@@ -34,11 +42,13 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.7",
     "@typescript-eslint/parser": "^5.30.7",
+    "@vue/eslint-config-typescript": "^11.0.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-typescript": "^3.3.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "^4.2.1"
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.3.0"
   },
   "devDependencies": {
     "eslint": "^8.20.0",
