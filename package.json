@@ -6,6 +6,7 @@
     "douza",
     "eslint"
   ],
+  "homepage": "https://github.com/JusticHentai/eslint-config",
   "repository": {
     "type": "git",
     "url": "https://github.com/JusticHentai/eslint-config"
