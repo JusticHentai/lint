@@ -33,7 +33,7 @@ module.exports = {
     'import/extensions': ['.js', '.jsx', '.mjs'],
   },
   rules: {
-    'prettier/prettier': 'warn', // eslint-plugin-prettier eslint-config-prettier 让 prettier 相关变成 warn
+    'prettier/prettier': 'warn', // 让 prettier 相关变成 warn
     'no-unused-vars': ['warn', { vars: 'all', varsIgnorePattern: '^_' }],
     'import/no-named-as-default': 'off',
     // 使用单成员导出
