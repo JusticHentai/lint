@@ -19,7 +19,7 @@ module.exports = {
     sourceType: 'module',
   },
   extends: [
-    'eslint:recommended', // eslint-plugin-import 推荐
+    'eslint:recommended', // 推荐
     'plugin:import/recommended', // eslint-plugin-import
     'plugin:prettier/recommended', // eslint-config-prettier eslint-plugin-prettier
   ],
