@@ -1,9 +1,10 @@
 {
   "name": "@justichentai/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "continuous integration prettier config",
   "keywords": [
     "douza",
+    "justichentai",
     "eslint"
   ],
   "homepage": "https://github.com/JusticHentai/eslint-config",
