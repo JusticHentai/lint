@@ -2,21 +2,27 @@
 
 continuous integration Eslint-config
 
+## Install
+
+```bash
+npm i @justichentai/eslint-config
+```
+
 ## Usage
 
 In `.eslintrc.js`
 ```js
-module.exports = {
-  extends: ['@douza/eslint-config'],
+module.exports = {  
+  extends: ['@justichentai/eslint-config'],  
 }
 ```
 
 单独使用
 ```js
-module.exports = {  
+module.exports = {
   extends: [
-	'@douza/eslint-config/basic',
-	'@douza/eslint-config/typescript'  
+    '@justichentai/eslint-config/basic',
+    '@justichentai/eslint-config/typescript'
   ],
 }
 ```
