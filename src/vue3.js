@@ -1,9 +1,8 @@
 module.exports = {
   extends: [
+    'plugin:vue/vue3-recommended',
     './basic',
-    'plugin:vue/recommended',
     '@vue/eslint-config-typescript/recommended',
-    '@vue/eslint-config-prettier',
   ],
   rules: {
     'no-shadow': 'off', // 关闭 eslint 的，使用 @typescript-eslint 的
@@ -28,5 +27,6 @@ module.exports = {
       'warn',
       { vars: 'all', varsIgnorePattern: '^_' }, // 忽略这个模式的
     ],
+    '@typescript-eslint/ban-types': 'off', // 允许基础类型
   },
 }
