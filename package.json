@@ -1,59 +1,27 @@
 {
   "name": "@justichentai/eslint-config",
   "version": "1.0.2",
-  "description": "continuous integration prettier config",
-  "keywords": [
-    "douza",
-    "justichentai",
-    "eslint"
-  ],
-  "homepage": "https://github.com/JusticHentai/eslint-config",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/JusticHentai/eslint-config"
-  },
+  "description": "eslint 配置",
   "license": "ISC",
-  "author": "douza",
-  "exports": {
-    ".": {
-      "import": "./src/index.js",
-      "require": "./src/index.js"
-    },
-    "./basic": {
-      "import": "./src/basic.js",
-      "require": "./src/basic.js"
-    },
-    "./typescript": {
-      "import": "./src/typescript.js",
-      "require": "./src/typescript.js"
-    },
-    "./vue2": {
-      "import": "./src/vue2.js",
-      "require": "./src/vue2.js"
-    },
-    "./vue3": {
-      "import": "./src/vue3.js",
-      "require": "./src/vue3.js"
-    }
-  },
+  "author": "justichentai",
   "main": "./src/index.js",
-  "scripts": {
-    "format": "eslint . && prettier --write ."
-  },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.30.7",
-    "@typescript-eslint/parser": "^5.30.7",
-    "@vue/eslint-config-typescript": "^11.0.0",
-    "eslint-config-google": "^0.14.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-import-resolver-typescript": "^3.3.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-vue": "^9.3.0"
-  },
+  "type": "module",
+  "files": [
+    "src",
+    "package.json",
+    "README.md"
+  ],
   "devDependencies": {
-    "eslint": "^8.20.0",
-    "prettier": "^2.7.1",
-    "typescript": "^4.7.4"
+    "@eslint/js": "^9.8.0",
+    "@eslint/json": "^0.3.0",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.0"
   }
 }
