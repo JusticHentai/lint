@@ -8,6 +8,7 @@
   "files": [
     "eslint.config.js",
     "prettier.config.js",
+    ".prettierrc",
     "package.json",
     "README.md"
   ],
