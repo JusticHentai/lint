@@ -1,5 +1,4 @@
 import importPlugin from 'prettier-plugin-organize-imports'
-import packageJsonPlugin from 'prettier-plugin-packagejson'
 
 const prettierConfig = {
   printWidth: 80, // 最长 80 个字符
@@ -14,7 +13,6 @@ const prettierConfig = {
   endOfLine: 'lf', // 换行符 lf
   plugins: [
     importPlugin, // import 排序 组合 去除无用
-    packageJsonPlugin, // package.json 里面的 key 好好排序
   ],
 }
 
