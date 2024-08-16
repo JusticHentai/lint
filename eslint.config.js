@@ -12,7 +12,7 @@ const tsConfig = tsEslint.config({
     eslintPluginPrettier,
   ],
   files: ['**/*.{js,ts,tsx}'],
-  ignores: ['dist'],
+  ignores: ['**/dist/**'],
   languageOptions: {
     ecmaVersion: 2020,
     globals: globals.browser,
